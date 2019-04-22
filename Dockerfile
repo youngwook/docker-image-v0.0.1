@@ -19,4 +19,4 @@ EXPOSE $APP_PORT
 WORKDIR $APP-DIR
 
 #operate the server with related memory maximum size
-ENTRYPOINT java -jar -Xmx150M $APP
+ENTRYPOINT java -jar -Xmx150M $APP_DIR/$APP
