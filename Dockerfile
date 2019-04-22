@@ -2,9 +2,9 @@
 FROM openjdk:8-jre-alpine
 
 #environment variables
-ENV APP = docker-image-0.0.1-SNAPSHOT.jar
-ENV APP_PORT = 8080
-ENV APP_DIR = /app
+ENV APP=docker-image-0.0.1-SNAPSHOT.jar
+ENV APP_PORT=8080
+ENV APP_DIR=/app
  
 #make directory
 RUN mkdir $APP_DIR 
